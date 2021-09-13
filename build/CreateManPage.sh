@@ -92,7 +92,7 @@ $RONN "$SRC_DIR/start_samba_statusd.1.ronn"
 gzip --keep "$SRC_DIR/start_samba_statusd.1"
 
 # Install the man page into the package if dir exists
-if [-d "$PACKAGE_ROOT" ]; then
+if [ -d "$PACKAGE_ROOT" ]; then
 echo "Install to tmp package $PACKAGE_ROOT"
     mkdir -p "$PACKAGE_ROOT/usr/man/man1"
     cp "$SRC_DIR/samba_statusd.1.gz" "$PACKAGE_ROOT/usr/man/man1"
