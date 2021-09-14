@@ -1,4 +1,5 @@
 samba-exporter (0.7) focal; urgency=low
+
   [ Tobias Zellner ] 
   * Closes: Bug#21 - Automate the workflow to release on launchpad, see https://github.com/imker25/samba_exporter/issues/21
   * Fix issues with the deb build on launchpad  
